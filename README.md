@@ -9,5 +9,5 @@
 
 ## <b>Inicio</b> 
 
-![Tela Principal](images/calculadora.png)
+![Tela Principal](images/fim.png)
 <hr>
