@@ -133,7 +133,7 @@ export default () => {
                             </Form.Control>
                         </Col>
 
-                        <Button variant="success" type="submit" style={{ marginTop: '24px' }} block>
+                        <Button data-testid="btn-converter" variant="success" type="submit" style={{ marginTop: '24px' }} block>
                             {exibirSpinner === true &&
                                 <Spinner
                                     animation="border"
@@ -150,7 +150,7 @@ export default () => {
                     </Form.Row>
                 </Form>
 
-                <Modal show={exibirModal} onHide={handleFecharModal}>
+                <Modal show={exibirModal} onHide={handleFecharModal} data-testid="modal">
                     <Modal.Header closeButton>
                         <Modal.Title>Conversão</Modal.Title>
                     </Modal.Header>
