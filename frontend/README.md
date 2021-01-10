@@ -3,6 +3,12 @@
 * Abaixo está a lista das tecnologias que foram usadas no desenvolvimento.
 <hr>
 
+## Conteúdos 
+     - useStates
+     - useEffect
+     - Validação de Formulário
+     - ...
+
 ## React-bootstrap
     * yarn add react-bootstrap bootstrap --save
 
